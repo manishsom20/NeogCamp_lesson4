@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minionese</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="text--center">
+        <a href="/index.html" class="">Minion Translator</a>
+    </nav>
+    <div class="container--fluid">
+        <div class="container">
+            <div class="translator">
+                <label for="translate_text" class="text--muted"><span style="font-size: 12px;">Your Text</span></label>
+                <textarea name="translate_text" id="translate_text" rows="5" placeholder="Enter your text to translate"></textarea>
+                
+                <button id="btn_translate">Translate to Minionese</button>
+                
+                <label for="translate_text" class="text--muted"><span style="font-size: 12px;">Minionese</span></label>
+                <div id="minionese_text" class=" flex flex-align-center">
+                        <!-- converted text here  -->
+
+                        <!-- if no text -->
+                        <div class="text--muted text--center">
+                            <h3>¯\_(ツ)_/¯</h3>
+                            <small>Please enter some text to translate</small>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-credits text--center">
+           &lt;/&gt; by <a href="https://manishsom021100.netlify.app/" target="_blank" class="">Manish</a> 
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
